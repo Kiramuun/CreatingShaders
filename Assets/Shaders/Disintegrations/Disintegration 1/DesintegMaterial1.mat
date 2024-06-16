@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MaterialOutline2
-  m_Shader: {fileID: -6465566751694194690, guid: 684dc19e5f1d21d4981375a6ec375c4e,
+  m_Name: DesintegMaterial1
+  m_Shader: {fileID: -6465566751694194690, guid: aa805750c29fdc142bb4913d8457e281,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,14 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fade_Distance: 10
-    - _Outline_Thickness: 0.05
+    - _Edge_Width: 0.02
+    - _NoiseScale: 50
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Edge_Color: {r: 5.9921565, g: 0.17783743, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6446310012715085306
+--- !u!114 &2680331337630624276
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
