@@ -15541,11 +15541,47 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 16
+        m_Name: FlamesRate
+        m_Overridden: 0
+      - m_Value: 1.6
+        m_Name: FlamesLifetime
+        m_Overridden: 0
+      - m_Value: 2
+        m_Name: FlamesSize
+        m_Overridden: 0
+      - m_Value: 25
+        m_Name: SmokeRate
+        m_Overridden: 0
+      - m_Value: 2.6
+        m_Name: SmokeLifetime
+        m_Overridden: 0
+      - m_Value: 3
+        m_Name: SmokeSize
+        m_Overridden: 0
+      - m_Value: 30
+        m_Name: AmbersRate
+        m_Overridden: 0
+      - m_Value: 3.2
+        m_Name: AmbersLifetime
+        m_Overridden: 0
+      - m_Value: 0.2
+        m_Name: AmbersSize
+        m_Overridden: 0
     m_Vector2f:
       m_Array: []
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.1, y: 1, z: 0.1}
+        m_Name: FlamesVelocity
+        m_Overridden: 0
+      - m_Value: {x: 0.1, y: 1.8, z: 0.1}
+        m_Name: SmokeVelocity
+        m_Overridden: 0
+      - m_Value: {x: 0.1, y: 1.6, z: 0.1}
+        m_Name: AmbersVelocity
+        m_Overridden: 0
     m_Vector4f:
       m_Array:
       - m_Value: {x: 47.93726, y: 6.9509034, z: 2.3968635, w: 1}
