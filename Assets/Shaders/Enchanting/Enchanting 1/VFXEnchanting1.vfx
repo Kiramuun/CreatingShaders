@@ -24,9 +24,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614555}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614556}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614583}
       id: 0
       isStickyNote: 0
@@ -36,31 +33,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614558}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614629}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614640}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614580}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614585}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614589}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614614}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614609}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614623}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614593}
       id: 0
       isStickyNote: 0
   - title: New Group Node
@@ -74,31 +47,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614774}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614775}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614777}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614780}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614784}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614790}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614735}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614736}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614747}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614757}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614795}
@@ -107,13 +56,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614733}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614801}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614728}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614729}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614830}
@@ -2128,7 +2071,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":0.6700000166893005,"z":0.0},"size":{"x":0.10000000149011612,"y":1.0,"z":0.10000000149011612}}'
+      m_SerializableObject: '{"center":{"x":0.0,"y":1.6799999475479127,"z":0.0},"size":{"x":0.10000000149011612,"y":1.0,"z":0.10000000149011612}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -3114,7 +3057,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":0.11999999731779099,"z":0.0},"size":{"x":0.15000000596046449,"y":0.15000000596046449,"z":0.15000000596046449}}'
+      m_SerializableObject: '{"center":{"x":0.0,"y":1.100000023841858,"z":0.0},"size":{"x":0.15000000596046449,"y":0.15000000596046449,"z":0.15000000596046449}}'
     m_Space: 0
   m_Property:
     name: Box
