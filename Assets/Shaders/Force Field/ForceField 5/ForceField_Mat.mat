@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6594201282740737109
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DesintegMaterial1
-  m_Shader: {fileID: -6465566751694194690, guid: aa805750c29fdc142bb4913d8457e281,
+  m_Name: ForceField_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 6463abd27692fe54f92d91bb0a816374,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _ForceFieldTexture:
+        m_Texture: {fileID: 2800000, guid: 23a87f08c42cad347893406e7b407cda, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,23 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Edge_Width: 0.02
-    - _NoiseScale: 50
+    - _ForceFieldPower: 1
+    - _HorizontalMove: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _VerticalMove: 0.05
     m_Colors:
-    - _Edge_Color: {r: 5.9921565, g: 0.17783743, b: 0, a: 0}
+    - _ForceFieldColor: {r: 0.09693194, g: 0.73727024, b: 0.7490196, a: 0}
+    - _MinManTransparency: {r: 0.4, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2680331337630624276
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7

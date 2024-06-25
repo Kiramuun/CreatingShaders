@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnchantingMat1 3
-  m_Shader: {fileID: -6465566751694194690, guid: 4945fe7cde2089949910ed401ee9ba9a,
+  m_Name: Glass_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 16b15b0cb1b4447499fe46c36d2a370a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,16 +24,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainText:
-        m_Texture: {fileID: 2800000, guid: ee2125694b0db2043b26a65dac23e45f, type: 3}
+    - _SampleTexture2D_73875cf9e8d14d10b250c06b1a6be75a_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: 7100996ceff295a45947c5dbd0075a91, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicMap:
-        m_Texture: {fileID: 2800000, guid: e5afad012fdd8df47b41db075dd03686, type: 3}
+    - _TintTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,18 +46,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GradientNoisePower: 5
-    - _GradientNoiseScale: 0
-    - _Metallic: 1
+    - _Boolean: 0
+    - _Boolean_1: 1
+    - _Boolean_2: 1
+    - _Boolean_3: 1
+    - _Boolean_4: 1
+    - _Boolean_5: 1
+    - _DistortStrength: 0.01
+    - _DistortionOnTexture: 0
+    - _Distortion_OnOff: 1
+    - _Metallic: 0.2
+    - _Metallic_OnOff: 1
+    - _NormalStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.5
+    - _ReflectionStrength: 0.1
+    - _Reflection_OnOff: 1
+    - _Smoothness: 1
+    - _Smoothness_OnOff: 1
+    - _Tiling: 200
+    - _Tint_Texture_Diffuse_OnOff: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _GradientNoiseColor: {r: 0, g: 84.54351, b: 85.445015, a: 1}
-    - _GradientNoiseSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _TintColor: {r: 0, g: 1, b: 0.8039216, a: 0.19607843}
   m_BuildTextureStacks: []
---- !u!114 &8255463089424922996
+--- !u!114 &4764687551047527262
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

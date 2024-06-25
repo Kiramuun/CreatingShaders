@@ -37,9 +37,6 @@
             "m_Id": "885ac44cbce04793834bd5dba58d363f"
         },
         {
-            "m_Id": "601ee3a069b1439ab7ea50942db580cf"
-        },
-        {
             "m_Id": "a84547b6407242e082ee960367e9e1e7"
         },
         {
@@ -63,6 +60,21 @@
     "m_CategoryData": [
         {
             "m_Id": "c51cd8aa65804e179d05190b58ea6e93"
+        },
+        {
+            "m_Id": "28609ab409fa42c8ae74ed888bbfe2d1"
+        },
+        {
+            "m_Id": "2ced8bc08f68401983fbb37b1e84b303"
+        },
+        {
+            "m_Id": "77bbc7f2725a4e848a1493d3067b8120"
+        },
+        {
+            "m_Id": "875d7a99c3ac4cef9e2a253acf7ba5d5"
+        },
+        {
+            "m_Id": "d712e9c7101d430dafcb532af4c0eb67"
         }
     ],
     "m_Nodes": [
@@ -2507,6 +2519,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "28609ab409fa42c8ae74ed888bbfe2d1",
+    "m_Name": "Refraction",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "921927ac0bfd4d4c9f30e196c1663779"
+        },
+        {
+            "m_Id": "0cd65155687e4f39a02288b1a74be374"
+        },
+        {
+            "m_Id": "885ac44cbce04793834bd5dba58d363f"
+        },
+        {
+            "m_Id": "a84547b6407242e082ee960367e9e1e7"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "288ac1b68b7a4f2daca39773a9bd2e41",
     "m_Id": 0,
@@ -2680,6 +2713,30 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "2ced8bc08f68401983fbb37b1e84b303",
+    "m_Name": "Foam",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "2f51d8ef29764f6191bf49778307a11e"
+        },
+        {
+            "m_Id": "cb56e2de0b69403081bce1f9de957d4d"
+        },
+        {
+            "m_Id": "64a8f6a51f7c461ab721d048e8e2f818"
+        },
+        {
+            "m_Id": "d6c7126ab77e42e18090a9e22d2f90a8"
+        },
+        {
+            "m_Id": "aca366d3140e4733a38e34691151283b"
+        }
+    ]
 }
 
 {
@@ -4043,34 +4100,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
-    "m_ObjectId": "601ee3a069b1439ab7ea50942db580cf",
-    "m_Guid": {
-        "m_GuidSerialized": "24c2f6f9-8bc5-4c81-bfa3-8b7354a6232b"
-    },
-    "m_Name": "UV",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "UV",
-    "m_DefaultReferenceName": "_UV",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "62917e3f2fd24f1d9246a3da689a189e",
@@ -4887,6 +4916,24 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "77bbc7f2725a4e848a1493d3067b8120",
+    "m_Name": "Water Color",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "700cb2a550284dc3a7857b58078a0498"
+        },
+        {
+            "m_Id": "a862cf32887f4defbe1c48e2aea17116"
+        },
+        {
+            "m_Id": "fcadf595e9274eabb129a30516b686b9"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "787b158aaec54ba5906817b6feb26636",
     "m_Id": 4,
@@ -5371,6 +5418,24 @@
     },
     "m_Width": 208.0,
     "m_Height": 208.0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "875d7a99c3ac4cef9e2a253acf7ba5d5",
+    "m_Name": "Wave Controls",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "1e01d59acb4340119eeff7e95f4cc089"
+        },
+        {
+            "m_Id": "5978a8027aaf439ea60f8451751701b9"
+        },
+        {
+            "m_Id": "82051781539f443aa94162a3ac26efc6"
+        }
+    ]
 }
 
 {
@@ -7226,62 +7291,7 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "c51cd8aa65804e179d05190b58ea6e93",
     "m_Name": "",
-    "m_ChildObjectList": [
-        {
-            "m_Id": "700cb2a550284dc3a7857b58078a0498"
-        },
-        {
-            "m_Id": "a862cf32887f4defbe1c48e2aea17116"
-        },
-        {
-            "m_Id": "fcadf595e9274eabb129a30516b686b9"
-        },
-        {
-            "m_Id": "921927ac0bfd4d4c9f30e196c1663779"
-        },
-        {
-            "m_Id": "0cd65155687e4f39a02288b1a74be374"
-        },
-        {
-            "m_Id": "2f51d8ef29764f6191bf49778307a11e"
-        },
-        {
-            "m_Id": "cb56e2de0b69403081bce1f9de957d4d"
-        },
-        {
-            "m_Id": "64a8f6a51f7c461ab721d048e8e2f818"
-        },
-        {
-            "m_Id": "d6c7126ab77e42e18090a9e22d2f90a8"
-        },
-        {
-            "m_Id": "aca366d3140e4733a38e34691151283b"
-        },
-        {
-            "m_Id": "885ac44cbce04793834bd5dba58d363f"
-        },
-        {
-            "m_Id": "601ee3a069b1439ab7ea50942db580cf"
-        },
-        {
-            "m_Id": "a84547b6407242e082ee960367e9e1e7"
-        },
-        {
-            "m_Id": "c7e5c51b16f84391aa930c1d41fba505"
-        },
-        {
-            "m_Id": "4f87fb0f88bd4f3e847c4f6308ab231c"
-        },
-        {
-            "m_Id": "1e01d59acb4340119eeff7e95f4cc089"
-        },
-        {
-            "m_Id": "5978a8027aaf439ea60f8451751701b9"
-        },
-        {
-            "m_Id": "82051781539f443aa94162a3ac26efc6"
-        }
-    ]
+    "m_ChildObjectList": []
 }
 
 {
@@ -7776,6 +7786,21 @@
         "x": 0.0,
         "y": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "d712e9c7101d430dafcb532af4c0eb67",
+    "m_Name": "Other",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "c7e5c51b16f84391aa930c1d41fba505"
+        },
+        {
+            "m_Id": "4f87fb0f88bd4f3e847c4f6308ab231c"
+        }
+    ]
 }
 
 {

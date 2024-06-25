@@ -28,12 +28,56 @@ Material:
         m_Texture: {fileID: 2800000, guid: ee2125694b0db2043b26a65dac23e45f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTextTest2:
+        m_Texture: {fileID: 2800000, guid: ee2125694b0db2043b26a65dac23e45f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Mask:
+        m_Texture: {fileID: 2800000, guid: e4b8a74e355062f45a701931f320d857, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTest2:
         m_Texture: {fileID: 2800000, guid: e4b8a74e355062f45a701931f320d857, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
         m_Texture: {fileID: 2800000, guid: e5afad012fdd8df47b41db075dd03686, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMapTest2:
+        m_Texture: {fileID: 2800000, guid: e5afad012fdd8df47b41db075dd03686, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 445e46785da21d24dbdb03db28e6b977, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_011137271bae4a99b8f5cc619108f1ba_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2950ff8cdfff4c738548341c277349d3_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_bf5f656ff01845c88aed5b25544ed938_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_5f7f4785ffb348709dad3bc4a9ffcab9_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 445e46785da21d24dbdb03db28e6b977, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_7d32eb7d68894db3ae5e7bea99e22d7f_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 445e46785da21d24dbdb03db28e6b977, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_c4bf38c56a994628a6c5539b9a1f17ed_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 445e46785da21d24dbdb03db28e6b977, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,16 +94,35 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Boolean: 1
+    - _DisplacementStrength: 100
+    - _DisplacementStrengthOff: 1.52
+    - _DisplacementStrengthOn: 0.3
+    - _Enchant_OnOff: 0
     - _GradientNoisePower: 7
     - _GradientNoiseScale: 22
     - _Metallic: 0.5
+    - _MetallicTest2: 0.5
+    - _NoiseEffect_OnOff: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.5
+    - _SmoothnessTest2: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorEffectOff: {r: 0, g: 0.953454, b: 1, a: 1}
+    - _ColorEffectOn: {r: 8.568767, g: 2.166815, b: 9.849155, a: 1}
+    - _ColorTest2: {r: 1, g: 1, b: 1, a: 1}
+    - _GradientColorTest2: {r: 15.999998, g: 0.46520165, b: 0, a: 1}
     - _GradientNoiseColor: {r: 13.956542, g: 0, b: 63.999992, a: 1}
     - _GradientNoiseSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Offset1: {r: 0, g: 0.3, b: 0, a: 0}
+    - _Offset1Off: {r: 0, g: 0.3, b: 0, a: 0}
+    - _Offset1On: {r: 0, g: 0.3, b: 0, a: 0}
+    - _Offset2: {r: -0.2, g: 0.5, b: 0, a: 0}
+    - _Offset2Off: {r: -0.2, g: 0.5, b: 0, a: 0}
+    - _Offset2On: {r: -0.2, g: 0.5, b: 0, a: 0}
+    - _PBRColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8255463089424922996
 MonoBehaviour:
